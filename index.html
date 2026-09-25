@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Miss Fresher 2K26</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+<!-- ==================================================
+     BACKGROUND
+================================================== -->
+
+<div class="background-grid"></div>
+
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+<div class="glow glow-three"></div>
+
+
+<!-- ==================================================
+     APP
+================================================== -->
+
+<div class="app">
+
+
+<!-- ==================================================
+     WELCOME
+================================================== -->
+
+<section
+    id="welcomeScreen"
+    class="screen active"
+>
+
+
+    <div class="system-bar">
+
+        <span>
+            SYSTEM // 2K26
+        </span>
+
+        <span class="online">
+            ● ONLINE
+        </span>
+
+    </div>
+
+
+    <div class="hero-content">
+
+
+        <div class="crown-big">
+            👑
+        </div>
+
+
+        <div class="eyebrow">
+            WELCOME TO
+        </div>
+
+
+        <h1 class="main-title">
+
+            FRESHER
+
+            <span>
+                2K26
+            </span>
+
+        </h1>
+
+
+        <div class="title-line"></div>
+
+
+        <p class="hero-subtitle">
+            A little challenge awaits you ✨
+        </p>
+
+
+        <div class="input-wrap">
+
+            <span class="input-icon">
+                ✦
+            </span>
+
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="ENTER YOUR NAME"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <button
+            id="startButton"
+            class="primary-btn"
+        >
+
+            <span>
+                ENTER THE EXPERIENCE
+            </span>
+
+            <b>
+                →
+            </b>
+
+        </button>
+
+
+    </div>
+
+
+    <div class="bottom-system">
+
+        <span>
+            ACCESS LEVEL // FRESHER
+        </span>
+
+        <span>
+            ● SYSTEM READY
+        </span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ==================================================
+     ROUND 1
+================================================== -->
+
+<section
+    id="round1Screen"
+    class="screen"
+>
+
+
+    <div class="system-bar">
+
+        <span>
+            SYSTEM // ROUND_01
+        </span>
+
+        <span class="pink">
+            ACTIVE
+        </span>
+
+    </div>
+
+
+    <div class="round-header">
+
+        <div class="round-number">
+            01
+        </div>
+
+        <div>
+
+            <div class="eyebrow">
+                PERSONALITY SCAN
+            </div>
+
+            <h2>
+                ANIMAL SPIRIT
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="question-card">
+
+        <div class="question-icon">
+            🐾
+        </div>
+
+        <p>
+            Describe yourself as
+            an animal spirit.
+        </p>
+
+        <span>
+            THERE IS NO WRONG ANSWER
+        </span>
+
+    </div>
+
+
+    <label class="field-label">
+        YOUR ANIMAL
+    </label>
+
+
+    <div class="input-wrap">
+
+        <span class="input-icon">
+            ◈
+        </span>
+
+        <input
+            type="text"
+            id="animalInput"
+            placeholder="TYPE YOUR ANIMAL SPIRIT..."
+            autocomplete="off"
+        >
+
+    </div>
+
+
+    <label class="field-label">
+        WHY THIS ANIMAL?
+        <small>
+            OPTIONAL
+        </small>
+    </label>
+
+
+    <textarea
+        id="animalReason"
+        placeholder="Tell us why you feel connected to this animal..."
+    ></textarea>
+
+
+    <button
+        id="round1Next"
+        class="primary-btn"
+    >
+
+        <span>
+            CONTINUE
+        </span>
+
+        <b>
+            →
+        </b>
+
+    </button>
+
+
+    <div class="progress">
+
+        <span class="done"></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ==================================================
+     ROUND 2
+================================================== -->
+
+<section
+    id="round2Screen"
+    class="screen"
+>
+
+
+    <div class="system-bar">
+
+        <span>
+            SYSTEM // ROUND_02
+        </span>
+
+        <span class="pink">
+            CHALLENGE
+        </span>
+
+    </div>
+
+
+    <div class="round-header">
+
+        <div class="round-number">
+            02
+        </div>
+
+        <div>
+
+            <div class="eyebrow">
+                CHALLENGE MODULE
+            </div>
+
+            <h2>
+                CHOOSE YOUR
+                <br>
+                CHALLENGE
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <p class="round-description">
+        Select one challenge to
+        unlock the next stage.
+    </p>
+
+
+    <div class="challenge-grid">
+
+
+        <!-- SONG -->
+
+        <button
+            class="challenge-btn"
+            id="songButton"
+        >
+
+            <div class="challenge-top">
+
+                <span class="challenge-number">
+                    01
+                </span>
+
+                <span class="challenge-status">
+                    READY
+                </span>
+
+            </div>
+
+
+            <div class="challenge-icon">
+                🎤
+            </div>
+
+
+            <h3>
+                SING A SONG
+            </h3>
+
+
+            <p>
+                Give us your
+                best performance.
+            </p>
+
+
+            <div class="challenge-arrow">
+                →
+            </div>
+
+        </button>
+
+
+
+        <!-- NAILS -->
+
+        <button
+            class="challenge-btn"
+            id="nailsButton"
+        >
+
+            <div class="challenge-top">
+
+                <span class="challenge-number">
+                    02
+                </span>
+
+                <span class="challenge-status">
+                    CAMERA
+                </span>
+
+            </div>
+
+
+            <div class="challenge-icon">
+                💅🏻
+            </div>
+
+
+            <h3>
+                SHOW YOUR NAILS
+            </h3>
+
+
+            <p>
+                Capture a photo
+                of your nails.
+            </p>
+
+
+            <div class="challenge-arrow">
+                →
+            </div>
+
+        </button>
+
+    </div>
+
+
+    <input
+        type="file"
+        id="nailsPhoto"
+        accept="image/*"
+        capture="environment"
+        hidden
+    >
+
+
+    <img
+        id="nailsPreview"
+        class="photo-preview nails-preview"
+        alt="Nails"
+    >
+
+
+    <button
+        id="round2Next"
+        class="primary-btn"
+    >
+
+        <span>
+            I'M READY
+        </span>
+
+        <b>
+            →
+        </b>
+
+    </button>
+
+
+    <div class="progress">
+
+        <span class="done"></span>
+        <span class="done"></span>
+        <span></span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ==================================================
+     ROUND 3
+================================================== -->
+
+<section
+    id="round3Screen"
+    class="screen"
+>
+
+
+    <div class="system-bar">
+
+        <span>
+            SYSTEM // ROUND_03
+        </span>
+
+        <span class="green">
+            CAMERA READY
+        </span>
+
+    </div>
+
+
+    <div class="round-header">
+
+        <div class="round-number">
+            03
+        </div>
+
+        <div>
+
+            <div class="eyebrow">
+                FINAL SCAN
+            </div>
+
+            <h2>
+                FAVOURITE
+                <br>
+                HAIRSTYLE
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="camera-instruction">
+
+        <div class="camera-icon">
+            📸
+        </div>
+
+        <p>
+            Click your photo
+            in your favourite hairstyle.
+        </p>
+
+        <span>
+            LIVE CAMERA MODULE
+        </span>
+
+    </div>
+
+
+    <button
+        id="photoButton"
+        class="camera-btn"
+    >
+
+        📸
+        <span>
+            OPEN LIVE CAMERA
+        </span>
+
+    </button>
+
+
+    <!-- LIVE CAMERA -->
+
+    <div
+        id="cameraBox"
+        class="camera-box hidden"
+    >
+
+        <div class="camera-frame">
+
+            <div class="camera-corner c1"></div>
+            <div class="camera-corner c2"></div>
+            <div class="camera-corner c3"></div>
+            <div class="camera-corner c4"></div>
+
+            <video
+                id="cameraVideo"
+                autoplay
+                playsinline
+            ></video>
+
+            <div class="camera-label">
+                LIVE // CAMERA
+            </div>
+
+        </div>
+
+
+        <button
+            id="captureButton"
+            class="capture-btn"
+        >
+
+            ●
+
+            TAKE PHOTO
+
+        </button>
+
+    </div>
+
+
+    <canvas
+        id="cameraCanvas"
+        class="hidden"
+    ></canvas>
+
+
+    <!-- PHOTO -->
+
+    <img
+        id="hairstylePreview"
+        class="photo-preview hairstyle-preview"
+        alt="Favourite hairstyle"
+    >
+
+
+    <button
+        id="round3Next"
+        class="primary-btn hidden-button"
+    >
+
+        <span>
+            CONTINUE TO RESULT
+        </span>
+
+        <b>
+            →
+        </b>
+
+    </button>
+
+
+    <div class="progress">
+
+        <span class="done"></span>
+        <span class="done"></span>
+        <span class="done"></span>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ==================================================
+     RESULT / ANNOUNCEMENT
+================================================== -->
+
+<section
+    id="announcementScreen"
+    class="screen result-screen"
+>
+
+
+    <div class="system-bar">
+
+        <span>
+            SYSTEM // FINAL_RESULT
+        </span>
+
+        <span class="green">
+            VERIFIED
+        </span>
+
+    </div>
+
+
+    <div class="result-heading">
+
+        <div class="eyebrow">
+            THE RESULT IS
+        </div>
+
+        <h2>
+            MISS FRESHER
+        </h2>
+
+    </div>
+
+
+    <div class="result-line"></div>
+
+
+    <!-- SHRADDHA -->
+
+    <div
+        id="shraddhaReveal"
+        class="reveal-box"
+    >
+
+        <div class="scan-text">
+            ANALYZING CANDIDATE...
+        </div>
+
+
+        <img
+            src="assets/shraddha.jpg"
+            class="reveal-image"
+            alt="Result"
+        >
+
+    </div>
+
+
+    <!-- SORRY -->
+
+    <div
+        id="sorryReveal"
+        class="reveal-box hidden"
+    >
+
+        <div class="sorry-text">
+            SORRY SORRY 😂
+        </div>
+
+
+        <video
+            id="sorryVideo"
+            class="sorry-video"
+            src="assets/sorry.mp4"
+            playsinline
+            preload="auto"
+        ></video>
+
+    </div>
+
+
+    <!-- FINAL WINNER -->
+
+    <div
+        id="finalReveal"
+        class="final-reveal hidden"
+    >
+
+
+        <div class="winner-badge">
+            ✦ WINNER VERIFIED ✦
+        </div>
+
+
+        <div class="winner-photo-wrap">
+
+            <div class="photo-glow"></div>
+
+            <img
+                id="finalGirl"
+                src=""
+                alt="Miss Fresher"
+                class="final-girl"
+            >
+
+            <div class="photo-corner pc1"></div>
+            <div class="photo-corner pc2"></div>
+            <div class="photo-corner pc3"></div>
+            <div class="photo-corner pc4"></div>
+
+        </div>
+
+
+        <div class="winner-crown">
+            👑
+        </div>
+
+
+        <div class="flowers">
+            🌸
+            🌸
+            🌸
+        </div>
+
+
+        <div class="winner-label">
+            MISS FRESHER
+        </div>
+
+
+        <h3 id="winnerName">
+            NAME
+        </h3>
+
+
+        <div class="winner-year">
+            WINNER • 2K26
+        </div>
+
+
+        <div class="winner-divider"></div>
+
+
+        <div class="winner-message">
+            YOU MADE IT ✨
+        </div>
+
+
+        <div class="gift">
+            🎁
+        </div>
+
+    </div>
+
+
+    <div class="system-status">
+        ● RESULT VERIFIED // SYSTEM COMPLETE
+    </div>
+
+
+</section>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
